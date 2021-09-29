@@ -55,18 +55,26 @@ section {
     margin: 35px 150px 100px 150px;
     font-size: 20px;
 }
+.parent-section {
+    margin: 0 0;
+}
 .Section-Header {
     border-bottom: 5px solid #152a85;
     font-size: 35px;
 }
+.Main-Section-Header {
+    border-bottom: 3.5px solid #4bd2d8;
+    font-size: 36px;
+    margin: 36px 50px;
+}
 blockquote {
     font-style: italic;
 }
-.image-flow-right {
+.flow-right {
     float: right;
     margin: 0 0 10px 10px;
 }
-.image-flow-left {
+.flow-left {
     float: left;
-    margin: 0 10px 10px 0;
+    margin: 0 15px 10px 0;
 }
