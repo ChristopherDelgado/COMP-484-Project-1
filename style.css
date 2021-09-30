@@ -10,9 +10,22 @@ h1 {
     display: inline-block;
     margin: 0 0 0 25px;
 }
+.h1-no-margin {
+    letter-spacing: -4px;
+    margin: 0 4px 0 0;
+}
+.h1-turn-white {
+    letter-spacing: 0px;
+}
 .title {
     text-decoration: none;
     color: black;
+}
+a:hover .h1-no-margin {
+    color: #b93a01;
+}
+a:hover .h1-turn-white {
+    color: white;
 }
 nav {
     display: inline-block;
@@ -31,18 +44,25 @@ nav {
     padding-right: 5px;
     text-decoration: none;
 }
-.navigation-list li a:active {
-
+a {
+    color: #152a85;
+}
+a:hover {
+    color: #b93a01;
+    font-weight: bold;
+    cursor: url("assets/cursor.png"), default;
 }
 .navigation-list li a:hover {
     color: #b93a01;
-    font-weight: bold;
 }
 /* body */
 body {
     font-family: Helvetica, sans-serif;
     margin: 0 150px;
     padding: 0;
+}
+p {
+    line-height: 32px;
 }
 h2 {
     font-size: 40px;
@@ -52,11 +72,15 @@ h2 {
     margin-bottom: 200px;
 }
 section {
-    margin: 35px 150px 100px 150px;
+    margin: 17px 150px;
     font-size: 20px;
+    overflow: hidden;
 }
 .parent-section {
     margin: 0 0;
+}
+.last-section {
+    margin-bottom: 50px;
 }
 .Section-Header {
     border-bottom: 5px solid #152a85;
@@ -77,4 +101,12 @@ blockquote {
 .flow-left {
     float: left;
     margin: 0 15px 10px 0;
+}
+abbr {
+    text-decoration-style: dashed;
+    text-decoration-color: #4bd2d8;
+}
+abbr:hover {
+    font-style: italic;
+    cursor: url("assets/cursor.png"), default;
 }
