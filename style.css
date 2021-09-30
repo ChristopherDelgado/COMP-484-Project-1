@@ -114,3 +114,12 @@ abbr:hover {
 video:hover {
     cursor: pointer;
 }
+footer {
+    border-top: lightgray solid 1px;
+    color: grey;
+    display: flex;
+    margin: 50px 0px;
+}
+footer p {
+    margin: auto;
+}
