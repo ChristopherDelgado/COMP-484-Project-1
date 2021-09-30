@@ -2,13 +2,13 @@
 header {
     background-color: white;
     box-shadow: 0 0 5px lightgray;
-    margin: 0 -150px; /* negative value of the body margin */
-    padding: 15px 0;
+    margin: 0 -9.6%; /* negative value of the body margin */
+    padding: 0.94% 0;
 }
 h1 {
     color: black;
     display: inline-block;
-    margin: 0 0 0 25px;
+    margin: 0 0 0 1.57%;
 }
 /*---start--- styling for the DeathLoop logo in the top left corner */
 .h1-no-margin {
@@ -59,7 +59,7 @@ a:hover { /* styling the links when the mouse hovers over them */
 /* body */
 body {
     font-family: Helvetica, sans-serif;
-    margin: 0 150px;
+    margin: 0 8%;
     padding: 0;
 }
 p {
@@ -73,7 +73,7 @@ h2 {
     margin-bottom: 200px;
 }
 section {
-    margin: 17px 150px;
+    margin: 1.1% 8%;
     font-size: 20px;
     overflow: hidden; /* used to give a block formatting context to the sections so they wrap around floated img/video */
 }
@@ -81,7 +81,7 @@ section {
     margin: 0 0;
 }
 .last-section {
-    margin-bottom: 50px;
+    margin-bottom: 3.15%;
 }
 .Section-Header {
     border-bottom: 5px solid #152a85;
@@ -90,18 +90,21 @@ section {
 .Main-Section-Header {
     border-bottom: 3px solid #4bd2d8;
     font-size: 36px;
-    margin: 36px 50px;
+    margin: 2.26% 3.15%;
 }
 blockquote {
     font-style: italic;
 }
 .flow-right {
     float: right;
-    margin: 0 0 10px 10px;
+    margin: 0 0 0.65% 0.65%;
+    width: 46.2%;
+    min-width: 345px;
 }
 .flow-left {
     float: left;
-    margin: 0 15px 10px 0;
+    margin: 0 0.94% 0.65% 0;
+    width: 46.2%;
 }
 abbr {
     text-decoration-style: dashed;
@@ -118,7 +121,7 @@ footer {
     border-top: lightgray solid 1px;
     color: grey;
     display: flex;
-    margin: 50px 0px;
+    margin: 3.15% 0;
 }
 footer p {
     margin: auto;
