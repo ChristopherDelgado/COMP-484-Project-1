@@ -95,6 +95,14 @@ section {
 blockquote {
     font-style: italic;
 }
+video {
+    width: 46.2%;
+    min-width: 345px;
+}
+img {
+    width: 46.2%;
+    min-width: 345px;
+}
 .flow-right {
     float: right;
     margin: 0 0 0.65% 0.65%;
@@ -105,6 +113,7 @@ blockquote {
     float: left;
     margin: 0 0.94% 0.65% 0;
     width: 46.2%;
+    min-width: 345px;
 }
 abbr {
     text-decoration-style: dashed;
