@@ -10,6 +10,7 @@ h1 {
     display: inline-block;
     margin: 0 0 0 25px;
 }
+/*---start--- styling for the DeathLoop logo in the top left corner */
 .h1-no-margin {
     letter-spacing: -4px;
     margin: 0 4px 0 0;
@@ -27,16 +28,16 @@ a:hover .h1-no-margin {
 a:hover .h1-turn-white {
     color: white;
 }
+/*---end--- styling for the DeathLoop logo in the top left corner */
 nav {
-    display: inline-block;
-    float: right;
+    float: right; /* used to float the navigation to the right side of the screen */
 }
 .navigation-list {
     list-style: none;
     margin: 0 35px 0 0;
 }
 .navigation-list li {
-    display: inline;
+    display: inline; /* used to place nav links in a row layout */
 }
 .navigation-list li a {
     color: black;
@@ -47,7 +48,7 @@ nav {
 a {
     color: #152a85;
 }
-a:hover {
+a:hover { /* styling the links when the mouse hovers over them */
     color: #b93a01;
     font-weight: bold;
     cursor: url("assets/cursor.png"), default;
@@ -74,7 +75,7 @@ h2 {
 section {
     margin: 17px 150px;
     font-size: 20px;
-    overflow: hidden;
+    overflow: hidden; /* used to give a block formatting context to the sections so they wrap around floated img/video */
 }
 .parent-section {
     margin: 0 0;
@@ -87,7 +88,7 @@ section {
     font-size: 35px;
 }
 .Main-Section-Header {
-    border-bottom: 3.5px solid #4bd2d8;
+    border-bottom: 3px solid #4bd2d8;
     font-size: 36px;
     margin: 36px 50px;
 }
@@ -109,4 +110,7 @@ abbr {
 abbr:hover {
     font-style: italic;
     cursor: url("assets/cursor.png"), default;
+}
+video:hover {
+    cursor: pointer;
 }
