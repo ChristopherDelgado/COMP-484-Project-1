@@ -96,12 +96,16 @@ blockquote {
     font-style: italic;
 }
 video {
-    width: 46.2%;
-    min-width: 345px;
+    width: 100%;
+    min-width: 1080px;
 }
 img {
-    width: 46.2%;
-    min-width: 345px;
+    width: 100%;
+    min-width: 640px;
+}
+#no-style {
+    width: auto;
+    min-width: auto;
 }
 .flow-right {
     float: right;
